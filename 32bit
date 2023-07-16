@@ -74,7 +74,7 @@ gg.toast("[√] Complete")
 end
 --███████████████████████
 
-function one() --ws
+function one() --wson
 if AB==OFF then
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
 XIU=nil
@@ -82,10 +82,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x464c8f4
-XIU[1].value='h00F0271E'
+XIU[1].value='h7A0444E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x464c8f4+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 AB=ON
@@ -96,10 +96,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x464c8f4
-XIU[1].value='hFF8301D1'
+XIU[1].value='hF04B2DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x464c8f4+0x4)
-XIU[2].value='hE81300FD'
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 gg.setValues(XIU)
 AB=OFF
@@ -107,7 +107,7 @@ end
 end
 
 
-function two() --ws
+function two() --wson
 if CD==OFF then
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
 XIU=nil
@@ -115,10 +115,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x464c01c
-XIU[1].value='h00F0271E'
+XIU[1].value='h7A0444E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x464c01c+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
@@ -127,10 +127,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x464d94c
-XIU[1].value='h00F0271E'
+XIU[1].value='h7A0444E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x464d94c+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 CD=ON
@@ -141,10 +141,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x464c01c
-XIU[1].value='hE80F1CFC'
+XIU[1].value='hF0472DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x464c01c+0x4)
-XIU[2].value='hF80700F9'
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 gg.setValues(XIU)
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
@@ -153,10 +153,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x464d94c
-XIU[1].value='hFF8301D1'
+XIU[1].value='hF04B2DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x464d94c+0x4)
-XIU[2].value='hE81300FD'
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 gg.setValues(XIU)
 CD=OFF
@@ -164,7 +164,7 @@ end
 end
 
 
-function three()  --ws
+function three()  --wson
 if EF==OFF then
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
 XIU=nil
@@ -172,10 +172,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x49e3abc
-XIU[1].value='h400080D2'
+XIU[1].value='hC80244E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x49e3abc+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
@@ -184,10 +184,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x49ef270
-XIU[1].value='h400080D2'
+XIU[1].value='h0000A0E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x49ef270+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 EF=ON
@@ -198,10 +198,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x49e3abc
-XIU[1].value='hFFC300D1'
+XIU[1].value='h70402DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x49e3abc+0x4)
-XIU[2].value='hF37B02A9'
+XIU[2].value='h10D04DE2'
 XIU[2].flags=4
 gg.setValues(XIU)
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
@@ -210,10 +210,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x49ef270
-XIU[1].value='hED33B76D'
+XIU[1].value='hF04F2DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x49ef270+0x4)
-XIU[2].value='hEB2B016D'
+XIU[2].value='h04D04DE2'
 XIU[2].flags=4
 gg.setValues(XIU)
 EF=OFF
@@ -221,7 +221,7 @@ end
 end
 
 
-function four() --ws
+function four() --wson
 if GH==OFF then
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
 XIU=nil
@@ -229,10 +229,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x66b2f84
-XIU[1].value='h600B80D2'
+XIU[1].value='h5B0000E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x66b2f84+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 GH=ON
@@ -243,10 +243,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x66b2f84
-XIU[1].value='hFF4301D1'
+XIU[1].value='hF0482DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x66b2f84+0x4)
-XIU[2].value='hF55303A9'
+XIU[2].value='h20D04DE2'
 XIU[2].flags=4
 gg.setValues(XIU)
 GH=OFF
@@ -254,7 +254,7 @@ end
 end
 
 
-function five() --ws
+function five() --wson
 if IJ==OFF then
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
 XIU=nil
@@ -262,10 +262,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x66b2368
-XIU[1].value='h200080D2'
+XIU[1].value='h0100A0E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x66b2368+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 IJ=ON
@@ -276,10 +276,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x66b2368
-XIU[1].value='hFF8301D1'
+XIU[1].value='hF04B2DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x66b2368+0x4)
-XIU[2].value='hF61B00F9'
+XIU[2].value='h18D04DE2'
 XIU[2].flags=4
 gg.setValues(XIU)
 IJ=OFF
@@ -287,7 +287,7 @@ end
 end
 
 
-function six()
+function six() --wson
 if KL==OFF then
 LibStart=gg.getRangesList('libil2cpp.so')[1].start
 XIU=nil
@@ -295,10 +295,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x36eef84
-XIU[1].value='h000080D2'
+XIU[1].value='hC80244E3'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x36eef84+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 gg.setValues(XIU)
 KL=ON
@@ -309,10 +309,10 @@ XIU={}
 XIU[1]={}
 XIU[2]={}
 XIU[1].address=LibStart+0x36eef84
-XIU[1].value='hFF0301D1'
+XIU[1].value='h70402DE9'
 XIU[1].flags=4
 XIU[2].address=LibStart+(0x36eef84+0x4)
-XIU[2].value='hE81300FD'
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 gg.setValues(XIU)
 KL=OFF
@@ -496,6 +496,7 @@ gg.toast("[ EXIT ]")
         print("- MLB All Character")
         print("- Training All Character")
         print("- No Cooldown Skill")
+        print("- Wallhack")
         print(printx)  
     end 
 gg.setVisible(true) 
